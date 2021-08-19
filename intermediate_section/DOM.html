@@ -1,10 +1,41 @@
-<html>
+<html >
 
 <body>
 
     <p>
        Hello world! 
     </p>
+
+    <div id="f1">
+        <ul>
+            <li>
+            Test1
+            </li>
+     
+            <li>
+                Test2
+            </li>
+     
+            <li>
+             Test3
+            </li>
+     
+        </ul>
+    </div>
+
+    <script>
+        console.log('salam');
+
+        let div1 = document.getElementById('f1');
+        console.log(div1.localName);
+        div1.innerHTML='this is new text' ;
+
+        if(div1.localName = 'div') {
+            console.log(div1.innerHTML + "<h1>");
+        } else {
+            cosole.log('nothing to say')
+        };
+        </script>
 
 </body>
 
